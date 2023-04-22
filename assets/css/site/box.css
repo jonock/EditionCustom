@@ -1,20 +1,30 @@
 .statement-box {
-    background-color: var(--brand-color);;
+    background-color: var(--soft-color-dark);
+    color: var(--white-color);
     position: relative;
     z-index: 10;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     width: 100%;
     max-width: 720px;
-    padding: 20px;
-    margin-top: 1px;
-    margin-bottom: 50px;
-    text-align: center;
+    padding: 2.4rem;
+    margin-bottom: 4rem;
+    text-align: left;
+    border-radius: 1rem;
+}
+
+.statement-box-title {
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+        font-weight: bold;
+        font-size: 2.3rem;
 }
 
 .statement-box-text {
-    font-size:2rem;
+    font-size:1.9rem;
 }
 
 
