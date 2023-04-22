@@ -1,0 +1,21 @@
+.statement-box {
+    background-color: var(--brand-color);;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    padding: 20px;
+    margin-top: 1px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.statement-box-text {
+    font-size:2rem;
+}
+
+
+

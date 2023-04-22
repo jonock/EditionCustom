@@ -111,6 +111,11 @@
                 "type": "boolean",
                 "default": true,
                 "group": "post"
+            },
+            "statement_box_text":{
+                "type": "text",
+                "default": "Ich setze mich für alle statt für wenige ein!",
+                "group": "homepage"
             }
         }
     },

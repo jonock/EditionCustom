@@ -3,13 +3,17 @@
 <main class="site-main">
 
     <header class="feed-header gh-canvas">
+        <div class="statement-box">
+            {{#if @custom.statement_box_text}}
+                <p class="statement-box-text">{{@custom.statement_box_text}}</p>
+            {{/if}}
+        </div>
         {{#if @custom.feed_title}}
             <div class="feed-header-wrapper">
                 <h2 class="feed-header-title">{{@custom.feed_title}}</h2>
             </div>
         {{/if}}
     </header>
-
     <div class="post-feed{{#match @custom.feed_layout "!=" "Minimal"}} expanded{{/match}}{{#match @custom.feed_layout "Right thumbnail"}} right-thumbnail{{/match}}{{#match @custom.feed_layout "Text-only"}} text-only{{/match}} gh-feed gh-canvas">
         {{#foreach posts}}
             {{> "loop"}}
