@@ -6,9 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 100%;
-    padding: 2.4rem;
-    margin-bottom: 4rem;
+    padding: 2.6rem;
     text-align: left;
     border-radius: 1rem;
 }
@@ -20,15 +18,19 @@
 .statement-box-wrapper{
     padding-top: 6vmin;
     margin-top: 3rem;
+    max-width: 80%;
+    margin-bottom: 1rem;
+
+
 }
 
 .statement-box-title {
-        padding-bottom: 1rem;
-        margin-bottom: 1.5rem;
-        font-size: 1.5rem;
-        letter-spacing: 0.05rem;
-        font-weight: bold;
-        font-size: 2.3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    font-weight: bold;
+    font-size: 2.3rem;
 }
 
 .statement-box-text {
