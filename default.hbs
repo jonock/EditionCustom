@@ -65,6 +65,9 @@
 
     {{#is "home"}}
         {{> "cover"}}
+        {{#if @custom.statement_box_title}}
+            {{> "statement-box"}}
+        {{/if}}
         {{#if @custom.show_featured_posts}}
             {{> "featured-posts"}}
         {{/if}}
